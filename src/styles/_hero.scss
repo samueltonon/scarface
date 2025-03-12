@@ -8,12 +8,20 @@
     background-position: center;
     background-repeat: no-repeat;
 
-
     @media (max-width: 768px) {
         background-image: url(../images/hero_desktop.png);
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
+        height: 240px;
+    }
+
+    @media (min-width: 769px) and (max-width: 1023px) {
+        background-image: url(../images/hero_desktop.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 640px;
     }
 
     &__content {
